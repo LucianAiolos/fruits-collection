@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LucianAiolos/fruits-collection/static/css/main.b951360c.css",
+    "main.js": "/LucianAiolos/fruits-collection/static/js/main.56a7016c.js",
+    "static/js/787.386a9397.chunk.js": "/LucianAiolos/fruits-collection/static/js/787.386a9397.chunk.js",
+    "index.html": "/LucianAiolos/fruits-collection/index.html",
+    "main.b951360c.css.map": "/LucianAiolos/fruits-collection/static/css/main.b951360c.css.map",
+    "main.56a7016c.js.map": "/LucianAiolos/fruits-collection/static/js/main.56a7016c.js.map",
+    "787.386a9397.chunk.js.map": "/LucianAiolos/fruits-collection/static/js/787.386a9397.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b951360c.css",
+    "static/js/main.56a7016c.js"
+  ]
+}
