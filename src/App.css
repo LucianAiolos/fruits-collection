@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,72 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#root, body {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(115, 206, 176, 0),rgb(119, 163, 157)
+  )
+}
+
+.add-fruits {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(167, 7, 7);
+}
+
+.basket-container {
+  width: 200px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructions {
+  font-size: 20px;
+  font-weight: 800;
+  width: 60%;
+}
+
+.fruit-counters {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 30px;
+  width: 50px;
+  font-size: 30px;
+  color: white;
+  border: none;
+  box-shadow: 2px 3px 4px gray;
+}
+
+.decrease {
+  background-color: orange;
+}
+
+.increase {
+  background-color: greenyellow;
 }
